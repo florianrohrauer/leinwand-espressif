@@ -8,7 +8,7 @@
 #define CHARACTERISTIC_UUID "beb5483e-36e1-4688-b7f5-ea07361b26a8"
 
 BLECharacteristic *pCharacteristic;
-std::string effect = "color:0";
+std::string effect = "pacifica";
 
 class CharacteristicCallback : public BLECharacteristicCallbacks {
   void onWrite(BLECharacteristic* pCharacteristic, esp_ble_gatts_cb_param_t* param) {
